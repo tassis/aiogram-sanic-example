@@ -5,17 +5,13 @@ from aiogram.types import ContentTypes, Message
 SERVICE_CODE = "bot"
 DP_CODE = f"{SERVICE_CODE}_dp" 
 
-def get_bot():
+def get_bot() -> Bot:
     app = Sanic.get_app()
     return getattr(app.ctx, SERVICE_CODE)
 
-def get_dp():
+def get_dp() -> Dispatcher:
     app = Sanic.get_app()
     return getattr(app.ctx, DP_CODE)
-
-def get_token():
-    app = Sanic.get_app()
-    return app.config["BOT_TOKEN"]
 
 def register(app: Sanic):
     # get bot_token from app.config
