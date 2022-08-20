@@ -1,0 +1,14 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 error pnpm": {
+    "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+    "err": {
+      "name": "pnpm",
+      "message": "No package.json (or package.yaml, or package.json5) was found in \"/home/tassis/Repos/saweima/python/aiogran-sanic\".",
+      "code": "ERR_PNPM_NO_IMPORTER_MANIFEST_FOUND",
+      "stack": "pnpm: No package.json (or package.yaml, or package.json5) was found in \"/home/tassis/Repos/saweima/python/aiogran-sanic\".\n    at readProjectManifest (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:19830:13)\n    at async Object.readProjectManifestOnly (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:19834:28)\n    at async readProjectManifestOnly (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:43827:24)\n    at async Object.handler (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:178354:24)\n    at async /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:182630:21\n    at async run (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:182604:34)\n    at async runPnpm (/usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:182823:5)\n    at async /usr/pnpm-global/5/node_modules/.pnpm/pnpm@6.32.11/node_modules/pnpm/dist/pnpm.cjs:182815:7"
+    }
+  }
+}

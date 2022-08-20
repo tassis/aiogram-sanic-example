@@ -46,3 +46,6 @@ async def startup(app: Sanic):
 @app.before_server_stop
 async def dispose(app: Sanic):
     await bot.delete_webhook()
+
+if __name__ == '__main__':
+    app.run()
